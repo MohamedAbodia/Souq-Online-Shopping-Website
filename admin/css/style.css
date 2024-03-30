@@ -1,0 +1,175 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+/*=============================
+= Font Family
+==============================*/
+@font-face {
+    font-family: "neo";
+    src: url("../../font/8748f5068427fc51038324b33a9a85dd.eot");
+    src: url("../../font/8748f5068427fc51038324b33a9a85dd.eot?#iefix") format("embedded-opentype"), url("../../font/8748f5068427fc51038324b33a9a85dd.woff2") format("woff2"), url("../font/8748f5068427fc51038324b33a9a85dd.woff") format("woff"), url("../../font/8748f5068427fc51038324b33a9a85dd.ttf") format("truetype"), url("../font/8748f5068427fc51038324b33a9a85dd.svg#NeoSansArabic-Bold") format("svg");
+}
+body {
+  background: #f8f8f8 url("../../dimg/batthern-admin.png") repeat scroll 0 0;
+  font-family: 'neo',cursive;
+}
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #28d;
+}
+
+.login-header {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #2a4057;
+  padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #2386C8;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #17c;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+.mypage
+{
+	width: 50%;
+    background: #5a6879;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px 0;
+    min-height: calc(100vh - 20px);
+}
+.adminMenu ul{
+	list-style:none;
+	background: rgb(71, 82, 89);
+    display: block;
+    height: 40px;
+    width: 100%;
+}
+.adminMenu ul li{
+	float:right;
+	padding:10px;
+}
+.adminMenu ul li a{
+	text-decoration:none;
+    color: aliceblue;
+    font-size: 12px;
+    margin: 0 0 0 10px;
+}
+.adminBody
+{
+	background: #fff;
+    margin: 30px;
+    padding: 20px;
+}
+.formy label 
+{
+	text-align: right;
+    font-family: neo;
+    color: #555;
+    font-size: 13px;
+    font-weight: 200;
+    padding: 5px;
+	display:block;
+	
+}
+.formy input[type="text"] {
+    float: left;
+    width: 100%;
+	height: 25px;
+	text-align: right;
+}
+.formy input[type="submit"] {
+    background: #2386C8;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    width: 68%;
+    font-family: neo;
+    padding: 6px;
+    margin: 6px 88px;
+}
+form.formy input {
+    margin: 6px;
+}
+.formy select {
+    float: right;
+    padding: 3px;
+	width: 30%;
+}
+.formy [type=file] {
+    padding:7px;
+	width:98%;
+	border:1px solid #eee;
+	margin-bottom:10px;
+}
+.cat {
+    margin: 0 0 25px;
+}
